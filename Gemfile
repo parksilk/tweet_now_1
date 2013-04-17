@@ -16,6 +16,7 @@ gem 'activerecord'
 gem 'rake'
 
 gem 'shotgun'
+gem 'oauth'
 
 gem 'twitter'
 

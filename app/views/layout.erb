@@ -19,6 +19,11 @@
 </head>
 <body>
   <div class="container">
+  <% if current_user %>
+    <a class='btn' href="/logout">Logout</a>
+  <% else %>
+    <a class='btn' href="/oauth">Sign in with Twitter</a>
+  <% end %>
     <%= yield %>
   </div>
 </body>
